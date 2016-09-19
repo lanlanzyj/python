@@ -7,3 +7,4 @@ class Person:
         self.sex = sex
 info = Person('lily',13,'female')
 print info.sex
+print info.name

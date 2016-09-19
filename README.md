@@ -1,1 +1,1 @@
-# Detai Step
+# Detail Step
