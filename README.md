@@ -9,7 +9,8 @@
     ls
 ###生成config文件
     touch config
-添加如下内容：
+添加如下内容:
+
     # gitlab
     Host gitlab.com
         HostName gitlab.com
@@ -28,5 +29,7 @@
 再执行ssh-add 
 ###测试连接
     ssh -T git@gitlab.com
+###管理多个ssh，会有点问题，建议改用http
+    git remote set-url origin (http .git)
 
 :blush:
